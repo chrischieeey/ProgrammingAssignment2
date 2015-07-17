@@ -7,7 +7,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
 
-        #Description: This function creates a special "matrix" object
+        #Description/ Output: This function creates a special "matrix" object
         #that can cache its inverse
         
         #Input: x as a square, invertible matrix (Input from cacheSolve)
@@ -15,10 +15,12 @@ makeCacheMatrix <- function(x = matrix()) {
         #2.  get the value of the matrix
         #3.  set the value of the inverse
         #4.  get the value of the inverse
-        #Output: 
         
+        
+        #Initiatve variable
         inverse_i <- NULL
         
+        #1-4
         set <- function(y) {
                 x <<- y
                 inverse_i <<- NULL
